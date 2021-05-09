@@ -1,0 +1,32 @@
+<script>
+	import { Button, LongText, Spacer } from '../ui';
+
+	import { typografix } from '../utils';
+
+	import texts from '../texts';
+
+	export let visible = false;
+</script>
+
+{#if visible}
+	<LongText>
+		<h2>Coulisses</h2>
+		{#each texts.makingOf as section}
+			<h3>{@html typografix(section.title)}</h3>
+			{#each section.text.split('\n') as p}
+				<p>{@html typografix(p)}</p>
+			{/each}
+			<Spacer height='0.5rem' />
+		{/each}
+		<Spacer height='1rem' />
+		<Button on:click={() => visible = false}>
+			Retour au menu
+		</Button>
+	</LongText>
+{/if}
+
+<style lang='scss'>
+	h2 {
+		text-align: center;
+	}
+</style>
