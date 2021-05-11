@@ -38,16 +38,16 @@
 					class:active={savedLevel && index <= +savedLevel}
 					on:click={() => startLevel(index)}
 				>
-					<h3>{@html typografix(level.title)}</h3>
+					<img src='img/level-{index + 1}.png' />
 				</div>
 			{/each}
-			<div
+			<!-- <div
 				class='level outro'
 				class:active={GAME.finished}
 				on:click={goToOutro}
 			>
 				<h3>Conclusion</h3>
-			</div>
+			</div> -->
 		</div>
 
 		<Spacer height='1rem' />
@@ -70,35 +70,48 @@
 		gap: 1rem;
 
 		.level {
-			height: 10rem;
-			background: $main;
+			position: relative;
+			padding-top: 100%;
 			border-radius: 0.5rem;
-			display: flex;
-			justify-content: center;
-			align-items: center;
+			overflow: hidden;
 			cursor: not-allowed;
-			opacity: 0.5;
+			opacity: 0.7;
+			filter: grayscale(100%);
 
 			&.active {
 				cursor: pointer;
 				opacity: 1;
+				filter: none;
+			}
+
+			img {
+				@include center;
+				width: 100%;
+				object-fit: cover;
 			}
 
 			&.outro {
-				height: 5rem;
+				background: $main;
 				grid-column: span 2;
-			}
+				padding-top: 20%;
 
-			h3 {
-				font-size: 1.2rem;
-				text-align: center;
-				color: white;
+				h3 {
+					@include center;
+					font-size: 1.2rem;
+					text-align: center;
+					color: white;
+					margin: 0;
+					width: 90%;
 
-				@include sm {
-					font-size: 1.1rem;
+					@include sm {
+						font-size: 1rem;
+					}
+
+					@include xs {
+						font-size: 0.8rem;
+					}
 				}
 			}
 		}
-
 	}
 </style>

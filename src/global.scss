@@ -74,6 +74,13 @@ $background-semi: rgba(255, 250, 250, 0.5);
 	height: 100%;
 }
 
+@mixin center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 @font-face {
 	font-family: 'Gotham';
 	font-weight: bold;

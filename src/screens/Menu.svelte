@@ -12,7 +12,7 @@
 
 	export let state;
 
-	let modalVisible = window.matchMedia('(min-aspect-ratio: 9/16)').matches;
+	let modalVisible = window.matchMedia('(min-aspect-ratio: 1)').matches;
 	let levelsVisible = false;
 	let makingOfVisible = false;
 	let creditsVisible = false;
@@ -36,7 +36,7 @@
 	{#if modalVisible}
 		<div class='overlay' out:fade={{ duration: 300 }}>
 			<Modal width={0.75} closable on:close={() => modalVisible = false}>
-				<Content>
+				<Content style='text-align: center;'>
 					<div class='icon-mobile'>
 						<span class='fi fi-mobile-alt'></span>
 					</div>
@@ -45,9 +45,13 @@
 			</Modal>
 		</div>
 	{/if}
+	<!-- <img class='background' id='rna' src='img/rna.svg' />
+	<img class='background' id='vial' src='img/vaccine-vial.svg' /> -->
 	<Levels bind:state bind:visible={levelsVisible} />
-	<!-- <MakingOf bind:visible={makingOfVisible} /> -->
-	<!-- <Credits bind:visible={creditsVisible} /> -->
+	{#if NODELAY}
+		<MakingOf bind:visible={makingOfVisible} />
+		<Credits bind:visible={creditsVisible} />
+	{/if}
 </div>
 
 
@@ -60,6 +64,7 @@
 		max-height: calc(100% * 16/9);
 		display: flex;
 		flex-direction: column;
+		// padding-top: 5rem;
 		justify-content: center;
 		z-index: 42;
 
@@ -71,12 +76,32 @@
 			display: block;
 			width: 5rem;
 			margin: 0.5rem auto;
+
+			&.background {
+				position: absolute;
+				bottom: 2rem;
+				z-index: -42;
+				opacity: 0.7;
+				width: 30%;
+
+				&#rna {
+					left: 2rem;
+				}
+
+				&#vial {
+					right: 2rem;
+				}
+			}
 		}
 
 		h1 {
 			line-height: 110%;
 			text-align: center;
-			font: bold 1.8rem 'Gotham', sans-serif;
+			font: bold 1.8rem 'Gotham', 'Source Sans Pro', sans-serif;
+
+			@include xs {
+				font-size: 1.5rem;
+			}
 		}
 	}
 

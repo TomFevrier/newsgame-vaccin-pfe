@@ -13,9 +13,7 @@
 	onMount(async () => {
 		view.style.maxWidth = `${window.innerHeight * 9/16}px`;
 
-		await tick();
-
-		window.GAME = new Game(width, view);
+		window.GAME = new Game(Math.min(width, window.innerHeight * 9/16), view);
 
 		GAME.setState = (newState) => state = newState;
 

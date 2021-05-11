@@ -10,6 +10,7 @@
 	@import '../global.scss';
 
 	.button {
+		flex-shrink: 0;
 		width: fit-content;
 		height: 2.5rem;
 		border-radius: 1.25rem;
@@ -25,5 +26,11 @@
 		cursor: pointer;
 		user-select: none;
 		-webkit-tap-highlight-color: transparent;
+
+		@include xs {
+			height: 2rem;
+			border-radius: 1rem;
+			font-size: 1rem;
+		}
 	}
 </style>

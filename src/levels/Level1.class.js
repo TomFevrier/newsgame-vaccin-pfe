@@ -98,9 +98,18 @@ export default class Level1 extends Level {
 		}, 4000);
 
 		this.tick = (delta) => {
+			const nucleotides = this.strands.children[0].getChildByName('nucleotides').children;
+			for (const nucleotide of nucleotides) {
+				if (!nucleotide.sequenced && nucleotide.getBounds().y > this.height - this.sequencer.height * 0.5) {
+					nucleotide.sequenced = true;
+					// this.screen.removeChildren();
+					return !this.fail && this.handleError();
+				}
+			}
+
 			this.strands.children.forEach(strand => {
 				strand.y += delta * 2;
-				if (strand.getBounds().y > this.height - this.sequencer.height) {
+				if (strand.getBounds().y > this.height - this.sequencer.height * 0.5) {
 					// this.screen.removeChildren();
 					this.strands.removeChild(strand);
 				}
@@ -109,15 +118,6 @@ export default class Level1 extends Level {
 			if (this.strands.children.length === 0) {
 				GAME.ticker.remove(this.tick);
 				return this.handleWin();
-			}
-
-			const nucleotides = this.strands.children[0].getChildByName('nucleotides').children;
-			for (const nucleotide of nucleotides) {
-				if (!nucleotide.sequenced && nucleotide.getBounds().y > this.height - this.sequencer.height) {
-					nucleotide.sequenced = true;
-					// this.screen.removeChildren();
-					return !this.fail && this.handleError();
-				}
 			}
 		}
 

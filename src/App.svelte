@@ -15,7 +15,7 @@
 
 	Object.defineProperty(Array.prototype, 'shuffle', {
 		value: function() {
-			return this.sort((a, b) => Math.random() < 0.5);
+			return this.sort((a, b) => 0.5 - Math.random());
 		}
 	});
 

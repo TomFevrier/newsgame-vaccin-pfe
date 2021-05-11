@@ -7,18 +7,12 @@
 
 	export let state;
 
-	const outro = texts.outro.map(slide => slide.replace(/{{ LAB }}/g, localStorage.getItem('lab').toUpperCase()));
+	const outro = texts.outro.map(slide => slide.replace(/{{ LAB }}/g, localStorage.getItem('lab')));
 
 	let index = 0;
-
-	// const startGame = () => {
-	// 	localStorage.setItem('lab', labName);
-	// 	GAME.start();
-	// 	setTimeout(() => state = 'game', 500);
-	// }
 </script>
 
-<Modal height={0.5}>
+<Modal fixedHeight>
 	<Content>
 		<p>{@html typografix(outro[index])}</p>
 	</Content>

@@ -3,19 +3,24 @@
 	import { fade } from 'svelte/transition';
 
 	export let width;
-	export let height = null;
+	export let fixedHeight = false;
 	export let closable = false;
 	export let transition = () => {};
 
 	const dispatch = createEventDispatcher();
 
-	const style = `
-		width: ${width ? `${width * 100}%` : '90%'};
-		height: ${height ? `${GAME.height * height}px` : 'auto'};
-	`;
+	// const style = `
+	//
+	// 	height: ${fixedHeight ? `${GAME.height * height}px` : 'auto'};
+	// `;
 </script>
 
-<div class='modal' in:transition out:fade={{ duration: 250 }} {style}>
+<div
+	class='modal'
+	class:fixed-height={fixedHeight}
+	in:transition out:fade={{ duration: 250 }}
+	style='width: {width ? `${width * 100}%` : '90%'};'
+>
 	<slot></slot>
 	<div class='rect border'></div>
 	<div class='rect background'></div>
@@ -33,14 +38,23 @@
 	@import '../global.scss';
 
 	.modal {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
+		@include center;
 		padding: 2rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+
+		&.fixed-height {
+			height: 40%;
+
+			@include sm {
+				height: 50%;
+			}
+
+			@include xs {
+				height: 55%;
+			}
+		}
 
 		.close-button {
 			@include icon;

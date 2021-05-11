@@ -19,7 +19,7 @@
 
 <svelte:options accessors={true}/>
 {#if visible}
-	<Modal height={0.5} closable on:close>
+	<Modal fixedHeight closable on:close>
 		<Content>
 			<h3>{@html typografix(title)}</h3>
 			<p>{@html typografix(slides[index])}</p>
@@ -29,10 +29,11 @@
 				<Button on:click={() => moreVisible = true}>
 					En savoir plus
 				</Button>
+			{:else}
+				<Button on:click={() => dispatch('close')}>
+					À vous de jouer !
+				</Button>
 			{/if}
-			<Button on:click={() => dispatch('close')}>
-				À vous de jouer !
-			</Button>
 		{/if}
 		<Navigation length={slides.length} bind:index />
 	</Modal>

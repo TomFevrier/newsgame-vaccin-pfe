@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="67.733353mm"
+   height="114.85857mm"
+   viewBox="0 0 67.733353 114.85857"
+   version="1.1"
+   id="svg7134"
+   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   sodipodi:docname="vaccine-vial.svg">
+  <defs
+     id="defs7128">
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="-371.95034,528.82258"
+       end_point="-371.95034,795.30684"
+       center_point="-371.95034,662.06471"
+       id="path-effect4939"
+       is_visible="true"
+       lpeversion="1"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4490"
+       id="radialGradient4492-3"
+       cx="-385.87985"
+       cy="704.79034"
+       fx="-385.87985"
+       fy="704.79034"
+       r="79.507156"
+       gradientTransform="matrix(2.8415108,-1.2534661,1.2981036,2.9427008,-188.74452,-1860.7428)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4490">
+      <stop
+         style="stop-color:#00756f;stop-opacity:1"
+         offset="0"
+         id="stop4486" />
+      <stop
+         style="stop-color:#00a8a0;stop-opacity:0.79215693"
+         offset="1"
+         id="stop4488" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="-371.95034,528.82258"
+       end_point="-371.95034,795.30684"
+       center_point="-371.95034,662.06471"
+       id="path-effect4515"
+       is_visible="true"
+       lpeversion="1"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false" />
+    <rect
+       x="-946.30566"
+       y="796.31219"
+       width="50.08173"
+       height="18.76088"
+       id="rect3921-3-2" />
+    <rect
+       x="-946.30566"
+       y="796.31219"
+       width="50.08173"
+       height="18.76088"
+       id="rect7067" />
+    <rect
+       x="-920.99011"
+       y="789.19"
+       width="26.635342"
+       height="25.618528"
+       id="rect3923-5-9" />
+    <rect
+       x="-920.99011"
+       y="789.19"
+       width="26.635342"
+       height="25.618528"
+       id="rect7070" />
+    <rect
+       x="-946.30566"
+       y="796.31219"
+       width="62.093269"
+       height="22.722265"
+       id="rect3925-6-1" />
+    <rect
+       x="-946.30566"
+       y="796.31219"
+       width="62.093269"
+       height="22.722265"
+       id="rect7073" />
+    <rect
+       x="-994.26495"
+       y="656.22327"
+       width="154.4722"
+       height="41.406616"
+       id="rect3927-2-2" />
+    <rect
+       x="-994.26495"
+       y="656.22327"
+       width="154.4722"
+       height="41.406616"
+       id="rect7076" />
+    <rect
+       x="-959.23071"
+       y="680.44061"
+       width="80.114494"
+       height="17.643044"
+       id="rect3929-9-7" />
+    <rect
+       x="-959.23071"
+       y="680.44061"
+       width="80.114494"
+       height="17.643044"
+       id="rect7079" />
+    <rect
+       x="-959.23071"
+       y="680.44061"
+       width="109.96114"
+       height="24.068623"
+       id="rect3931-1-0" />
+    <rect
+       x="-959.23071"
+       y="680.44061"
+       width="109.96114"
+       height="24.068623"
+       id="rect7082" />
+    <rect
+       x="-397.82315"
+       y="4794.8979"
+       width="63.024345"
+       height="34.148571"
+       id="rect5299" />
+    <rect
+       x="-397.82315"
+       y="4794.8979"
+       width="63.024345"
+       height="34.148571"
+       id="rect7085" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="16.571284"
+     inkscape:cy="145.627"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1685"
+     inkscape:window-height="752"
+     inkscape:window-x="50"
+     inkscape:window-y="114"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7131">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-101.44885,-109.63619)">
+    <g
+       id="g5295"
+       transform="translate(1034.7854,-4417.6858)">
+      <path
+         style="font-variation-settings:normal;opacity:0.75;vector-effect:none;fill:#ffd166;fill-opacity:1;stroke:none;stroke-width:0.0823013;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m -371.95034,541.30394 c -33.70356,0 -37.69788,-1.37171 -37.69788,-1.37171 0,0 0.48231,28.88459 -1.93242,32.28745 -3.5989,5.0716 -32.66308,8.76899 -37.34599,25.16952 -4.71969,16.52934 -1.39124,174.14303 -1.39124,174.14303 0,0 2.81201,23.7696 78.36753,23.7696 m 0,-253.99789 c 33.70356,0 37.69788,-1.37171 37.69788,-1.37171 0,0 -0.48231,28.88459 1.93242,32.28745 3.5989,5.0716 32.66308,8.76899 37.34599,25.16952 4.71969,16.52934 1.39124,174.14303 1.39124,174.14303 0,0 -2.81201,23.7696 -78.36753,23.7696"
+         id="path3223-3"
+         sodipodi:nodetypes="ccsscc"
+         transform="matrix(0.42595747,0,0,0.42595747,-741.03486,4303.4158)"
+         inkscape:original-d="m -371.95034,541.30394 c -33.70356,0 -37.69788,-1.37171 -37.69788,-1.37171 0,0 0.48231,28.88459 -1.93242,32.28745 -3.5989,5.0716 -32.66308,8.76899 -37.34599,25.16952 -4.71969,16.52934 -1.39124,174.14303 -1.39124,174.14303 0,0 2.81201,23.7696 78.36753,23.7696"
+         inkscape:path-effect="#path-effect4939"
+         inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/vaccine-serum.png"
+         inkscape:export-xdpi="25.399672"
+         inkscape:export-ydpi="25.399672" />
+      <g
+         id="g3349-9"
+         transform="matrix(0.42595747,0,0,0.42595747,27.422127,4193.5591)"
+         style="stroke-width:0.310571">
+        <g
+           id="g3381-3"
+           inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/vaccine-vial.png"
+           inkscape:export-xdpi="25.399679"
+           inkscape:export-ydpi="25.399679">
+          <path
+             style="opacity:0.5;fill:url(#radialGradient4492-3);fill-opacity:1;stroke:none;stroke-width:0.0821718px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m -371.95034,541.30394 c -33.70356,0 -37.69788,-1.37171 -37.69788,-1.37171 0,0 0.48231,28.88459 -1.93242,32.28745 -3.5989,5.0716 -32.66308,8.76899 -37.34599,25.16952 -4.71969,16.52934 -1.39124,174.14303 -1.39124,174.14303 0,0 2.81201,23.7696 78.36753,23.7696 m 0,-253.99789 c 33.70356,0 37.69788,-1.37171 37.69788,-1.37171 0,0 -0.48231,28.88459 1.93242,32.28745 3.5989,5.0716 32.66308,8.76899 37.34599,25.16952 4.71969,16.52934 1.39124,174.14303 1.39124,174.14303 0,0 -2.81201,23.7696 -78.36753,23.7696"
+             id="path3859-6"
+             sodipodi:nodetypes="ccsscc"
+             transform="translate(-1804.0697,257.90526)"
+             inkscape:original-d="m -371.95034,541.30394 c -33.70356,0 -37.69788,-1.37171 -37.69788,-1.37171 0,0 0.48231,28.88459 -1.93242,32.28745 -3.5989,5.0716 -32.66308,8.76899 -37.34599,25.16952 -4.71969,16.52934 -1.39124,174.14303 -1.39124,174.14303 0,0 2.81201,23.7696 78.36753,23.7696"
+             inkscape:path-effect="#path-effect4515" />
+          <ellipse
+             style="opacity:0.5;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.41086;stroke-linecap:round;paint-order:stroke fill markers;stop-color:#000000"
+             id="ellipse3863-0"
+             transform="rotate(28.543654)"
+             inkscape:export-xdpi="50.799999"
+             inkscape:export-ydpi="50.799999"
+             inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/amino-acid.png"
+             ry="12.667565"
+             rx="23.510841"
+             cy="1772.3159"
+             cx="-1466.5017" />
+          <path
+             style="opacity:0.1;fill:none;stroke:#000000;stroke-width:0.657375;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -2254.064,1029.2852 c 0,0 3.0372,-23.6173 78.044,-23.6173 75.0067,0 78.0444,23.8018 78.0444,23.8018"
+             id="path3865-6"
+             sodipodi:nodetypes="csc" />
+          <path
+             id="path3867-2"
+             style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.082301;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;stop-color:#000000"
+             d="m -2242.4774,889.94571 c 0,0 32.2452,2.62458 66.4473,2.67717 35.9657,0.0553 66.9344,-2.67717 66.9344,-2.67717 v 90.44116 c 0,0 -31.2215,3.70417 -66.96,3.70417 -34.2985,0 -66.4217,-3.70417 -66.4217,-3.70417 z"
+             sodipodi:nodetypes="csccscc"
+             inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/vaccine-vial.png"
+             inkscape:export-xdpi="81.784821"
+             inkscape:export-ydpi="81.784821" />
+          <g
+             id="g3889-6"
+             transform="matrix(0,-0.64900265,0.64900265,0,-2646.5861,373.82569)"
+             style="stroke-width:0.478534"
+             inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/vaccine-vial.png"
+             inkscape:export-xdpi="81.784821"
+             inkscape:export-ydpi="81.784821">
+            <g
+               id="g3881-1"
+               transform="translate(22.486836,-3.4582572)"
+               style="stroke-width:0.478534">
+              <text
+                 xml:space="preserve"
+                 id="text3873-8"
+                 style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:0;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3921-3-2);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.478534;"
+                 transform="translate(2.1164929,-0.20097527)"><tspan
+                   x="-946.30469"
+                   y="804.64505"><tspan
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1;font-family:Tahoma;-inkscape-font-specification:Tahoma;stroke-width:0.478534">EXP</tspan></tspan></text>
+              <text
+                 xml:space="preserve"
+                 id="text3879-7"
+                 style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3923-5-9);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.478534;"
+                 transform="translate(-2.7213962,4.7927639)"><tspan
+                   x="-920.99023"
+                   y="798.55319"><tspan
+                     style="stroke-width:0.478534">▼</tspan></tspan></text>
+            </g>
+            <text
+               xml:space="preserve"
+               id="text3887-9"
+               style="font-style:normal;font-weight:normal;font-size:14.11px;line-height:0;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3925-6-1);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.478534;"
+               transform="translate(24.889791,9.3841244)"><tspan
+                 x="-946.30469"
+                 y="807.70904"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11px;line-height:1;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:0.478534">06.2021</tspan></tspan></text>
+          </g>
+          <path
+             id="path3891-2"
+             style="fill:none;fill-opacity:1;stroke:#00a9a0;stroke-width:1.23258;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;stop-color:#000000"
+             d="m -2238.7695,898.05904 c 0,26.32325 -7e-4,52.65001 0,78.97461 29.5771,2.9771 59.3535,4.12432 89.0639,2.71864 12.3208,-0.54351 24.6346,-1.47732 36.9165,-2.70497 0,-27.70313 -0.01,-55.40625 -0.01,-83.10938 -36.1564,2.72473 -72.4914,3.08379 -108.6945,1.05717 -5.7623,-0.32203 -11.5238,-0.68242 -17.282,-1.07865 0,1.38086 0.01,2.76172 0.01,4.14258 z"
+             inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/vaccine-vial.png"
+             inkscape:export-xdpi="81.784821"
+             inkscape:export-ydpi="81.784821" />
+          <text
+             xml:space="preserve"
+             id="text3897-0"
+             style="font-style:normal;font-weight:normal;font-size:13.2292px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3927-2-2);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.310571;"
+             transform="translate(-1238.579,245.74784)"
+             inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/vaccine-vial.png"
+             inkscape:export-xdpi="81.784821"
+             inkscape:export-ydpi="81.784821"><tspan
+               x="-994.26562"
+               y="668.72722"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.2292px;font-family:Gotham;-inkscape-font-specification:Gotham;stroke-width:0.310571">Vaccin COVID-19</tspan></tspan></text>
+          <g
+             id="g3907-2"
+             transform="translate(-1248.3213,248.26143)"
+             inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/vaccine-vial.png"
+             inkscape:export-xdpi="81.784821"
+             inkscape:export-ydpi="81.784821"
+             style="stroke-width:0.310571">
+            <rect
+               style="fill:#00a9a0;stroke-width:0.41086;stroke-linecap:round;paint-order:stroke fill markers;stop-color:#000000"
+               id="rect3899-3"
+               width="81.249168"
+               height="10.872204"
+               x="-986.30975"
+               y="691.6001"
+               ry="1.6540164" />
+            <text
+               xml:space="preserve"
+               id="text3905-7"
+               style="font-style:normal;font-weight:normal;font-size:7.9375px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3929-9-7);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.310571;"
+               transform="translate(-24.859721,11.667331)"><tspan
+                 x="-959.23047"
+                 y="687.94413"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.9375px;font-family:Gotham;-inkscape-font-specification:Gotham;fill:#ffffff;stroke-width:0.310571">10 doses de 0,5 mL</tspan></tspan></text>
+          </g>
+          <text
+             xml:space="preserve"
+             id="text3917-5"
+             style="font-style:normal;font-weight:normal;font-size:5.82083px;line-height:1.5;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3931-1-0);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.310571;"
+             transform="translate(-1273.4717,272.41517)"
+             x="302.66"
+             y="0"
+             inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/vaccine-vial.png"
+             inkscape:export-xdpi="81.784821"
+             inkscape:export-ydpi="81.784821"><tspan
+               x="-959.23047"
+               y="686.671"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.82083px;font-family:Gotham;-inkscape-font-specification:Gotham;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.310571">Suspension pour injection
+</tspan></tspan><tspan
+               x="-959.23047"
+               y="695.75419"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.82083px;font-family:Gotham;-inkscape-font-specification:Gotham;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.310571">Usage intramusculaire</tspan></tspan></text>
+          <path
+             style="fill:none;stroke:#1b1b1b;stroke-width:0.986062;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -2213.9124,816.93718 75.7848,0.002"
+             id="path3919-9"
+             sodipodi:nodetypes="cc" />
+        </g>
+      </g>
+      <g
+         id="g3916-1"
+         inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/vaccine-cap.png"
+         inkscape:export-xdpi="21.674664"
+         inkscape:export-ydpi="21.674664"
+         style="stroke-width:0.310571"
+         transform="matrix(0.42596305,0,0,0.42596305,260.18119,4308.6853)">
+        <rect
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#00a9a0;fill-opacity:1;stroke:none;stroke-width:0.657375;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+           id="rect3296-9"
+           width="93.171227"
+           height="42.229462"
+           x="-2769.0073"
+           y="513.27618"
+           ry="8.2171869"
+           inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/vaccine-cap.png"
+           inkscape:export-xdpi="25.399998"
+           inkscape:export-ydpi="25.399998" />
+        <rect
+           style="font-variation-settings:normal;opacity:0.3;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.64354;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000;stop-opacity:1"
+           id="rect3494-4"
+           width="15.528543"
+           height="42.229488"
+           x="-2707.7419"
+           y="513.27618"
+           inkscape:export-filename="/media/tomfevrier/Stockage/Documents/2020-2021/2e semestre/PFE/jeu-vaccin/public/sprites/vaccine-cap.png"
+           inkscape:export-xdpi="25.399998"
+           inkscape:export-ydpi="25.399998" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       id="text5297"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect5299);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="translate(501.58036,-4627.3118)"
+       x="10.288877"
+       y="0"><tspan
+         x="-376.77812"
+         y="4798.8999"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Gotham;-inkscape-font-specification:Gotham;text-align:center;text-anchor:middle">COVIVAX</tspan></tspan></text>
+  </g>
+</svg>

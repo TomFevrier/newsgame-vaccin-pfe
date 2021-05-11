@@ -18,7 +18,8 @@
 
 	const startGame = () => {
 		localStorage.clear();
-		localStorage.setItem('lab', labName);
+		localStorage.setItem('lab', labName.slice(0, 15).toUpperCase());
+		localStorage.setItem('level', 0);
 		GAME.start();
 		setTimeout(() => state = 'game', 500);
 	}
@@ -30,7 +31,7 @@
 	}
 </script>
 
-<Modal height={0.5}>
+<Modal fixedHeight>
 	<Content>
 		<p>{@html typografix(intro[index])}</p>
 		{#if index === intro.length - 1}

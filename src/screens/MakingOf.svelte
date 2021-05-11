@@ -13,11 +13,14 @@
 		<h2>Coulisses</h2>
 		{#each texts.makingOf as section}
 			<h3>{@html typografix(section.title)}</h3>
-			{#each section.text.split('\n') as p}
+			{#each section.text as p}
 				<p>{@html typografix(p)}</p>
 			{/each}
-			<Spacer height='0.5rem' />
+			<Spacer height='1rem' />
 		{/each}
+		<a href='https://github.com/TomFevrier/newsgame-vaccin-pfe' target='_blank'>
+			<Button>Voir le code source</Button>
+		</a>
 		<Spacer height='1rem' />
 		<Button on:click={() => visible = false}>
 			Retour au menu

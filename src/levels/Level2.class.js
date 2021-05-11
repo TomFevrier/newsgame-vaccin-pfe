@@ -11,7 +11,7 @@ export default class Level2 extends Level {
 	constructor() {
 		super();
 		this.index = 1;
-		this.markerRadius = 12;
+		this.markerRadius = 14;
 		this.spikeTemplates = data.levels[this.index].spikeTemplates;
 		this.aminoAcidsColors = data.levels[this.index].aminoAcidsColors;
 
@@ -53,7 +53,7 @@ export default class Level2 extends Level {
 				.beginFill(0x00A9A0)
 				.drawCircle(0, 0, radius * 0.8)
 				.endFill();
-			inner.alpha = 0.4;
+			inner.alpha = 0.3;
 			blob.addChild(inner);
 		}
 
@@ -94,11 +94,6 @@ export default class Level2 extends Level {
 		this.drawingBoard.name = 'drawingBoard';
 		this.content.addChild(this.drawingBoard);
 
-		this.drawingBoard.addChild(new PIXI.Graphics()
-			// .beginFill(0x00FFFF)
-			.drawRect(0, this.height * 0.5, this.width, this.height * 0.5)
-			// .endFill()
-		);
 		this.drawingBoard.interactive = true;
 		this.drawingBoard.hitArea = new PIXI.Rectangle(0, this.height * 0.5, this.width, this.height * 0.5);
 
@@ -329,14 +324,6 @@ export default class Level2 extends Level {
 				height: this.markerRadius * 2
 			});
 			marker.addChild(highlight);
-
-			// const text = new PIXI.Text(i + 1, new PIXI.TextStyle({
-			// 	fontFamily: "Arial",
-			// 	fontSize: 10,
-			// 	fill: 'white'
-			// }));
-			// text.anchor.set(0.5);
-			// marker.addChild(text);
 		});
 	}
 

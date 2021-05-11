@@ -94,7 +94,7 @@ export default class Game {
 	}
 
 	start() {
-		localStorage.setItem('lab', 'CoviVax')
+		// localStorage.setItem('lab', 'CoviVax')
 		this.goToLevel(START_LEVEL ? START_LEVEL - 1 : 0);
 		// this.goToLevel(0);
 	}

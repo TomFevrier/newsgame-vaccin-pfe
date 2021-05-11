@@ -23,11 +23,14 @@
 
 		.bar {
 			width: 60%;
-			height: 2.5rem;
+			height: 2rem;
+			border-radius: 1rem;
+			overflow: hidden;
 			background-color: $background-semi;
 
 			.bar-full {
 				background-color: $main;
+				border-radius: 1rem;
 				height: 100%;
 				animation: load 3s ease-out;
 			}

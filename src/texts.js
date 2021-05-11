@@ -37,7 +37,7 @@ export default {
 				`Contrairement aux vaccins classiques, qui consistent en l'injection d'une version atténuée ou désactivée d'un virus, la plupart des vaccins contre le SARS-CoV-2 utilisent *l'ADN ou l'ARN messager (ARNm)*.`,
 				`Concrètement, on injecte le "plan" permettant à nos cellules de répliquer la *protéine "Spike"*, présente à la surface du coronavirus, afin que notre système immunitaire apprenne à la reconnaître et fabrique des *anticorps* contre le véritable virus.`,
 				`Les vaccins AstraZeneca et Johnson&Johnson sont dits *"à vecteur viral"*, puisqu'ils utilisent un autre virus, rendu inoffensif, pour transporter le matériel génétique du SARS-CoV-2. À l'inverse, les vaccins des laboratoires Pfizer-BioNTech et Moderna sont dits *"à ARNm"*, c'est-à-dire que le "plan" codant pour la protéine Spike est injecté directement, sans intermédiaire.`,
-				`*Comment jouer ?* En suivant le plan de l'ARNm, reliez les *acides aminés* afin de fabriquer la protéine Spike. Attention à bien respecter le bon ordre !`
+				`*Comment jouer ?* En suivant le plan de l'ARNm, reliez soigneusement les *acides aminés* afin de fabriquer la protéine Spike. Attention à bien respecter le bon ordre, et à ne pas aller trop vite !`
 			],
 			alerts: {
 				win: {
@@ -54,25 +54,26 @@ export default {
 			title: `Les essais cliniques`,
 			tutorial: [
 				`Les *phases I et II* des essais cliniques (parfois confondues pour accélérer le processus) ont lieu sur un petit groupe de volontaires. Elles ont pour objectif de s'assurer à la fois *l'innocuité* (absence de danger et d'effets secondaires indésirables) et *l'immunogénicité* (capacité à susciter une réponse immunitaire) du vaccin.`,
-				`La *phase III*, réalisée à plus grande échelle (plusieurs dizaines de milliers de volontaires), permet d'évaluer *l'efficacité* du vaccin. Il s'agit d'une étude "randomisée", c'est-à-dire que seule la moitié des participants sont vaccinés. Les autres recoivent un placebo : c'est le *groupe contrôle*.`,
+				`La *phase III*, réalisée à plus grande échelle (plusieurs dizaines de milliers de volontaires), permet d'évaluer *l'efficacité* du vaccin. Il s'agit d'une étude "randomisée", c'est-à-dire que seule la moitié des participants sont vaccinés. Les autres recoivent, sans le savoir, un placebo : c'est le *groupe contrôle*.`,
 				`Au bout de quelques semaines, parmi les volontaires infectés par le Covid-19, on étudie la proportion d'entre eux qui avaient reçu un placebo. Si aucun des vaccinés n'est tombé malade, le vaccin a une efficacité de 100 %. S'il y a autant de malades faisant partie du groupe contrôle que de malades ayant été vaccinés, alors le vaccin n'a aucune efficacité.`,
-				`*Comment jouer ?* Consignes par encore finalisées`
+				`*Comment jouer ?* Appuyez sur chaque volontaire pour lui administrer soit une dose de vaccin, soit un placebo. Attention à ce qu'il y ait autant de participants dans le groupe contrôle que de vaccinés !`
 			],
-			info: {
-				text: `*Comment jouer ?* Moins il y a de volontaires vaccinés parmi ceux ayant été infectés, plus votre vaccin est efficace ! Appuyez sur chaque personne ayant attrapé le Covid-19 pour révéler son dossier médical et savoir si elle fait partie du groupe contrôle ou bien si elle a été vaccinée.`
-			},
+			infos: [
+				`Une fois que l'on a injecté à tous les participants soit une dose de vaccin, soit un placebo, on attend quelques semaines pour voir lesquels parmi eux attrapent le Covid-19.`,
+				`*Comment jouer ?* Moins il y a de volontaires vaccinés parmi ceux ayant été infectés, plus votre vaccin est efficace ! Appuyez sur chaque personne ayant attrapé le Covid-19 pour révéler son dossier médical et savoir si elle fait partie du groupe contrôle ou bien si elle a été vaccinée.`
+			],
 			alerts: {
 				win: {
 					title: `Covid-19 : l'EMA donne son feu vert au vaccin {{ LAB }}`,
-					text: `LA HAYE - L'Agence européenne des médicaments (EMA) a approuvé {{ JOUR }} le vaccin développé par le laboratoire {{ LAB }}, qui n'attend plus que l'autorisation de mise sur le marché (AMM) de la Commission européenne pour être distribué sur le continent.\n_"Il s'agit vraiment d'une réussite scientifique historique : ce vaccin est sûr et efficace à près de 92 %"_, a souligné la directrice de l'EMA, Aine Taylor.`
+					text: `LA HAYE - L'Agence européenne des médicaments (EMA) a approuvé {{ JOUR }} le vaccin développé par le laboratoire {{ LAB }}, qui n'attend plus que l'autorisation de mise sur le marché (AMM) de la Commission européenne pour être distribué sur le continent.\n_"Il s'agit vraiment d'une réussite scientifique historique : les résultats des essais cliniques montrent que ce vaccin est sûr et efficace à près de 92 %"_, a souligné la directrice de l'EMA, Aine Taylor.`
 				},
 				fail: {
 					title: `Covid-19 : {{ LAB }} abandonne son candidat vaccin, pas assez efficace`,
 					text: `PARIS - Les laboratoires {{ LAB }} ont annoncé {{ JOUR }} l'arrêt de leur programme de développement d'un vaccin contre le SARS-CoV-2.\n_"Les résultats intermédiaires des essais cliniques montrent que le vaccin a bien été toléré, mais les réponses immunitaires induites se sont avérées inférieures à celles observées chez les personnes guéries d'une infection naturelle"_, précise l'entreprise dans son communiqué de presse.`
 				},
 				failTransparency: {
-					title: `Covid-19 : l'OMS dénonce "un manque de transparence" sur les essais cliniques {{ LAB }}`,
-					text: `GENÈVE - Le directeur général de l'OMS, Taye Abreham Elshaday`
+					title: `Vaccin {{ LAB }} : une annonce "prématurée et peu crédible" selon l'OMS`,
+					text: `GENÈVE - Les laboratoires {{ LAB }} ont annoncé {{ JOUR }} avoir développé un vaccin sûr et efficace contre le SARS-CoV-2, une déclaration jugée _"prématurée et peu crédible"_ par l'Organisation mondiale de la Santé (OMS).\n_"Les essais cliniques obéissent à un protocole rigoureux : à l'heure actuelle, tout porte à croire que celui-ci n'a pas été respecté"_, a déclaré le directeur général de l'OMS, Taye Abreham Elshaday. Il déplore _"un manque de transparence"_ de la part de {{ LAB }}, qui laisse planer _"un doute sur l'efficacité réelle de ce vaccin"_.`
 				}
 			}
 		},
@@ -110,20 +111,58 @@ export default {
 	makingOf: [
 		{
 			title: `Pourquoi un newsgame ?`,
-			text: `À l'image de l'article Wikipédia en français qui y est dédié, [long d'à peine une ligne](https://fr.wikipedia.org/wiki/Newsgame), le newsgame ou "jeu d'informations" est encore très peu répandu dans les médias, en particulier français.\nEn ayant l'idée de ce format, j'avais notamment en tête la web-série interactive *Uchroniques*, réalisée par Thierry Tripod et Patrick Mallet et publiée en 2015 par France TV Nouvelles écritures. Ce format hybride - malheureusement tombé dans les limbes d'Internet et dont il ne reste aujourd'hui que [quelques "let's play"](https://www.youtube.com/watch?v=2DH497MHRRo) - proposait à l'internaute de revisiter dix événements historiques, de l'assassinat de Kennedy à la mission Apollo 13, en passant par la présentation du premier Macintosh.\nChaque événement incluait un mini-jeu, qui permettait selon la prestation du joueur de débloquer une fin alternative parmi trois ou quatre possibilités, le tout illustré par des images d'archives, réelles ou fabriquées de toutes pièces pour donner vie à ces uchronies plus ou moins farfelues. Pour ce projet de fin d'études, j'ai repensé en particulier au niveau consacré à Louis Pasteur, qui présentait un mini-jeu expliquant le fonctionnement d'un vaccin.\nPlus récemment, j'ai également été marqué par [ce format interactif de Reuters](https://graphics.reuters.com/HEALTH-CORONAVIRUS/VACCINE/yzdpxqxnwvx/), qui vulgarise en animations le principe des différents vaccins anti-Covid alors en cours de développement. Convaincu du potentiel de ce type de format pour vulgariser un sujet aussi complexe et qui nous touche toutes et tous, je me suis lancé dans le développement de mon propre newsgame.`
+			text: [
+				`À l'image de l'article Wikipédia en français qui y est dédié, [long d'à peine une ligne](https://fr.wikipedia.org/wiki/Newsgame), le newsgame ou "jeu d'informations" est encore très peu répandu dans les médias, en particulier français.\nEn ayant l'idée de ce format, j'avais notamment en tête la web-série interactive *Uchroniques*, réalisée par Thierry Tripod et Patrick Mallet et publiée en 2015 par France TV Nouvelles écritures. Ce format hybride - malheureusement tombé dans les limbes d'Internet et dont il ne reste aujourd'hui que [quelques "let's play"](https://www.youtube.com/watch?v=2DH497MHRRo) - proposait à l'internaute de revisiter dix événements historiques, de l'assassinat de Kennedy à la mission Apollo 13, en passant par la présentation du premier Macintosh.`,
+				`Chaque événement incluait un mini-jeu, qui permettait selon la prestation du joueur de débloquer une fin alternative parmi trois ou quatre possibilités, le tout illustré par des images d'archives, réelles ou fabriquées de toutes pièces pour donner vie à ces uchronies plus ou moins farfelues. Pour ce projet de fin d'études, j'ai repensé en particulier au niveau consacré à Louis Pasteur, qui présentait *un mini-jeu expliquant le fonctionnement d'un vaccin.*`,
+				`Plus récemment, j'ai également été marqué par [ce format interactif de Reuters](https://graphics.reuters.com/HEALTH-CORONAVIRUS/VACCINE/yzdpxqxnwvx/), qui vulgarise en animations le principe des différents vaccins anti-Covid alors en cours de développement. Convaincu du potentiel de ce type de format pour vulgariser un sujet aussi complexe et qui nous touche toutes et tous, *je me suis lancé dans le développement de mon propre newsgame.*`
+			]
+		},
+		{
+			title: `Le jeu`,
+			text: [
+				`Le newsgame est divisé en *quatre niveaux*, correspondant aux différentes étapes du développement des vaccins contre le Covid-19 : le séquençage du génome du virus, le fonctionnement des vaccins à ARNm (Pfizer, Moderna) et à vecteur viral (AstraZeneca, Johnson&Johnson), les essais cliniques et enfin la production massive de doses et la pharmacovigilance. À chaque niveau, *un mini-jeu permet de vulgariser les enjeux du sujet* d'une manière plus stimulante qu'un simple article.`,
+				`Le choix a été fait de bâtir le jeu *au format mobile*, et ce pour plusieurs raisons. D'une part, il s'agit de s'adapter aux usages : plus de 70 % des Français consomment la presse depuis leur smartphone, et le mobile constitue le principal support sur lequel ils jouent aux jeux vidéo, d'après [le rapport 2020 du SELL](https://www.sell.fr/news/bilan-marche-jeu-video-2020). D'autre part, le gameplay de certains niveaux (notamment celui sur le fonctionnement des vaccins) était beaucoup plus adapté au tactile qu'à la souris.`,
+				`Tout au long du jeu, *des dépêches* d'une agence de presse fictive - inspirées de véritables faits d'actualité - jalonnent le parcours du joueur et accompagnent ses succès ou ses échecs. Dans la course au vaccin, il y a des gagnants et des perdants, et il me semblait important que *l'échec fasse partie intégrante du jeu*... y compris pour des raisons indépendantes de la volonté de l'internaute, comme l'inefficacité d'un vaccin ou bien la détection d'effets secondaires graves.`
+			]
 		},
 		{
 			title: `Plusieurs défis`,
-			text: `Quand j'ai eu l'idée de ce newsgame, en janvier dernier, la campagne vaccinale venait tout juste de débuter en France et en Europe. Quatre mois plus tard, la situation est bien différente : alors qu'[à peine plus d'un Français sur quatre](https://twitter.com/BotDuVaccin) a déjà reçu une première injection, l'Institut Pasteur a abandonné son projet de vaccin, les vaccins AstraZeneca et Johnson&Johnson sont suspendus aux États-Unis et dans d'autres pays à la suite de rares cas de thromboses, et les retards de livraisons s'accumulent pour plusieurs fabricants - autant d'événements qui m'ont inspiré pour différents aspects du jeu.\nLa difficulté dans ce genre de projet est également de trouver le juste équilibre entre l'information et le jeu : trop d'info et l'internaute ne retiendrait rien, pas assez et le jeu serait superficiel. Finalement, la solution a été de laisser le choix au joueur d'approfondir tel ou tel aspect du sujet s'il le souhaite, mais d'apporter l'essentiel à travers le gameplay.`
-			// Parler de la difficulté à trouver le bon niveau d'abstraction et de vulgarisation dans le gameplay, pour ne pas que le jeu ne soit qu'un prétexte
+			text: [
+				`Quand j'ai eu l'idée de ce jeu, en janvier dernier, la campagne vaccinale venait tout juste de débuter en France et en Europe. Quatre mois plus tard, la situation est bien différente : alors qu'[à peine plus d'un Français sur quatre](https://twitter.com/BotDuVaccin) a déjà reçu une première injection, l'Institut Pasteur a abandonné son projet de vaccin, les vaccins AstraZeneca et Johnson&Johnson ont été suspendus dans plusieurs pays à la suite de rares cas de thromboses, et les retards de livraisons s'accumulent pour plusieurs fabricants - autant d'événements qui m'ont inspiré pour différents aspects du jeu. Jusqu'au dernier jour, *il a donc fallu s'adapter en fonction de l'actualité récente*.`,
+				`Par ailleurs, la difficulté dans ce genre de projet est de trouver *le bon niveau d'abstraction et de vulgarisation*. Un mini-jeu ne peut représenter fidèlement la complexité des enjeux du développement des vaccins, mais je ne voulais pas non plus que le gameplay ne soit qu'un prétexte pour distraire le joueur entre deux longs textes. En somme, il s'agissait d'atteindre le juste équilibre entre l'information et le jeu : trop d'info et l'internaute ne retiendrait rien, pas assez et le jeu en deviendrait superficiel. Finalement, la solution a été de laisser le choix au joueur d'approfondir tel ou tel aspect du sujet s'il le souhaite, mais d'apporter l'essentiel à travers le gameplay.`
+			]
+		},
+
+		{
+			title: `Un peu de technique...`,
+			text: [
+				`Le jeu a été codé par mes soins de A à Z, en JavaScript et HTML/CSS. Le projet complet compte 3XXX lignes de code et a nécessité plus de 69:14 heures de développement. J'ai utilisé le framework [Svelte](https://svelte.dev/) pour l'interface utilisateur, le moteur de rendu [PIXI.js](https://www.pixijs.com/) pour le jeu, et les bibliothèques [GSAP](https://greensock.com/gsap/) et [Howler.js](https://howlerjs.com/) pour les animations et le son, respectivement.`,
+				`Tous les graphismes _("sprites")_ ont été réalisés sur le logiciel de dessin vectoriel [Inkscape](https://inkscape.org/fr/). Les musiques et effets sonores sont libres de droits et issus de [Freesound](https://freesound.org/), et les icônes proviennent de [Fontisto](https://www.fontisto.com/).`
+			]
+		}
+	],
+	credits: [
+		{
+			label: `Conçu et développé par`,
+			items: `Tom Février`
 		},
 		{
-			title: `Le gameplay`,
-			text: `Et là j'explique les niveaux, les dépêches AFP, le choix du mobile et le fait de mettre en scène l'échec + éléments indépendants de notre volonté`
+			label: `Réalisé avec`,
+			items: [
+				`[Svelte](https://svelte.dev/)`,
+				`[PIXI.js](https://www.pixijs.com/)`,
+				`[GSAP](https://greensock.com/gsap/)`,
+				`[Howler.js](https://howlerjs.com/)`,
+				`[Fontisto](https://www.fontisto.com/)`
+			]
 		},
 		{
-			title: `Un peu de technique`,
-			text: `X lignes de code, Y heures de développement (rajouter 6 heures)... Le jeu a été codé par mes soins de A à Z, en JavaScript et HTML/CSS. J'ai utilisé le moteur de rendu [PIXI.js](https://www.pixijs.com/), [GSAP](https://greensock.com/gsap/) pour les animations et le framework [Svelte](https://svelte.dev/) pour l'interface utilisateur. Tous les graphismes _("sprites")_ ont été réalisés sur Inkscape.`
+			label: `Musiques et effets sonores`,
+			items: `[Freesound](https://freesound.org/)`
+		},
+		{
+			label: `Avec l'aide précieuse de`,
+			items: [`Florence Débarre`, `Steve Pascolo`, `Guillaume Achaz`, `Mounia Hocine`, `Marie Mawad`]
 		}
 	]
 };

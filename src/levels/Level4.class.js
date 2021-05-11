@@ -93,7 +93,7 @@ export default class Level4 extends Level {
 		this.cap.zIndex = 42;
 		this.content.addChild(this.cap);
 
-		const text = new PIXI.Text(localStorage.getItem('lab').toUpperCase(), new PIXI.TextStyle({
+		const text = new PIXI.Text(localStorage.getItem('lab'), new PIXI.TextStyle({
 			fontFamily: 'Gotham',
 			fontWeight: 'bold',
 			align: 'center',

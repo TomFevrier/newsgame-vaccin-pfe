@@ -19,7 +19,7 @@
 	const dispatch = createEventDispatcher();
 
 	const formatText = (text) => text
-		.replace(/{{ LAB }}/g, localStorage.getItem('lab').toUpperCase())
+		.replace(/{{ LAB }}/g, localStorage.getItem('lab'))
 		.replace(/de A/g, `d'A`)
 		.replace(/{{ JOUR }}/g, new Intl.DateTimeFormat('fr-FR', { weekday: 'long' }).format(new Date()));
 
