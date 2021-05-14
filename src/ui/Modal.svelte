@@ -9,17 +9,17 @@
 
 	const dispatch = createEventDispatcher();
 
-	// const style = `
-	//
-	// 	height: ${fixedHeight ? `${GAME.height * height}px` : 'auto'};
-	// `;
+	const style = `
+		width: ${width ? `${width * 100}%` : '90%'};
+		--game-height: ${window.GAME && GAME.height}px;
+	`;
 </script>
 
 <div
 	class='modal'
 	class:fixed-height={fixedHeight}
 	in:transition out:fade={{ duration: 250 }}
-	style='width: {width ? `${width * 100}%` : '90%'};'
+	{style}
 >
 	<slot></slot>
 	<div class='rect border'></div>
@@ -46,13 +46,16 @@
 
 		&.fixed-height {
 			height: 40%;
+			min-height: calc(0.4 * var(--game-height));
 
 			@include sm {
 				height: 50%;
+				min-height: calc(0.5 * var(--game-height));
 			}
 
 			@include xs {
 				height: 55%;
+				min-height: calc(0.55 * var(--game-height));
 			}
 		}
 

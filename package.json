@@ -7,8 +7,8 @@
     "start": "sirv public",
     "preview": "npm run build && surge public/ https://newsgame-vaccin-pfe.surge.sh/",
     "proxy": "testproxy http://localhost:5000",
-    "count": "cat src/*/** | wc -l",
-    "count-this": "cat src/*/** | grep -1a \"this.\" | wc -l",
+    "count": "find src/ -type f -exec cat {} + | wc -l",
+    "count-this": "find src/ -type f -exec cat {} + | grep -1a \"this.\" | wc -l",
     "index": "node scripts/generateIndexes.js"
   },
   "devDependencies": {

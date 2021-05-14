@@ -38,7 +38,7 @@
 	{:else if state === 'intro'}
 		<Intro bind:state />
 	{:else if state === 'outro'}
-		<Outro bind:state />
+		<Outro />
 	{/if}
 	{#if loading}
 		<LoadingScreen />

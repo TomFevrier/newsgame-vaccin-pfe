@@ -94,6 +94,10 @@ export default class Level2 extends Level {
 		this.drawingBoard.name = 'drawingBoard';
 		this.content.addChild(this.drawingBoard);
 
+		this.drawingBoard.addChild(new PIXI.Graphics()
+			.drawRect(0, this.height * 0.5, this.width, this.height * 0.5)
+		);
+
 		this.drawingBoard.interactive = true;
 		this.drawingBoard.hitArea = new PIXI.Rectangle(0, this.height * 0.5, this.width, this.height * 0.5);
 
@@ -142,7 +146,7 @@ export default class Level2 extends Level {
 			this.trace.addChild(line);
 
 			this.markers.children.forEach(async (marker, i) => {
-				if (distance(marker, { x: mouseX, y: mouseY }) > this.markerRadius) return;
+				if (distance(marker, { x: mouseX, y: mouseY }) > this.markerRadius * 1.2) return;
 				if (i > 0) {
 					handleMouseUp();
 				}

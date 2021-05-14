@@ -23,6 +23,8 @@
 				{:else}
 					<b>{@html typografix(section.items)}</b>
 				{/if}
+			</p>
+			<Spacer height='0.5rem' />
 		{/each}
 		<Spacer height='1rem' />
 		<Button on:click={() => visible = false}>

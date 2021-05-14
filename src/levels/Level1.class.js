@@ -108,7 +108,7 @@ export default class Level1 extends Level {
 			}
 
 			this.strands.children.forEach(strand => {
-				strand.y += delta * 2;
+				strand.y += delta * 1.8;
 				if (strand.getBounds().y > this.height - this.sequencer.height * 0.5) {
 					// this.screen.removeChildren();
 					this.strands.removeChild(strand);

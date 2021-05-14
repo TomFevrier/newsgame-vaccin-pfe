@@ -1,21 +1,15 @@
 <script>
-	import { onMount } from 'svelte';
-
 	export let style = '';
 
 	let width;
-	// onMount(() => {
-	// 	console.log("mounted")
-	// 	textFit(content);
-	// });
 
-	$: fontSize = width && Math.min(Math.max(width * 0.05, 12), 20)
+	$: fontSize = width && Math.min(Math.max(width * 0.05, 12), 20);
 </script>
 
 <div
 	class='content'
 	bind:clientWidth={width}
-	style='font-size: {fontSize}px; {style}'
+	style='font-size: {fontSize}px; max-height: {window.GAME && GAME.height * 0.7}px; {style}'
 >
 	<slot></slot>
 </div>
@@ -48,5 +42,13 @@
 			display: block;
 			margin: 0 auto;
 		}
+
+		overflow-y: scroll;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		-ms-overflow-style: none;
+		scrollbar-width: none;
 	}
 </style>

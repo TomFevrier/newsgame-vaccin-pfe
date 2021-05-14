@@ -34,7 +34,7 @@
 {#if visible}
 	<Modal transition={appear}>
 		<Content>
-			<img src='sprites/logo-aip.png' />
+			<img src='img/logo-aip.png' />
 			<h3>{@html typografix(formatText(alert.title))}</h3>
 			{#each alert.text.split('\n') as p}
 				<p>{@html typografix(formatText(p))}</p>

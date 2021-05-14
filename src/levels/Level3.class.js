@@ -1,12 +1,13 @@
 import Level from './Level.class.js';
 
 import { Sprite } from '../classes';
-import { Button, Info } from '../ui';
+import { Info } from '../ui';
 
 import { distanceSimple, sleep } from '../utils';
 
 import data from '../data';
 import texts from '../texts';
+
 
 export default class Level3 extends Level {
 	constructor() {
@@ -256,7 +257,7 @@ export default class Level3 extends Level {
 					person.interactive = true;
 					person.buttonMode = true;
 
-					const syringe = new Sprite('syringe', {
+					const syringe = new Sprite('syringe-rotated', {
 						width: 32,
 						anchorX: 1,
 						x: -person.width * 0.5 + this.scale * 20 - 10,

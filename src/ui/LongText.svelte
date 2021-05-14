@@ -8,7 +8,7 @@
 
 <div class='long-text' transition:fly={{ y: 500 }}>
 	<div class='container'>
-		<Content style='{style} margin: 2rem 0;'>
+		<Content style='{style} margin: 2rem 0; max-height: none !important;'>
 			<slot></slot>
 		</Content>
 	</div>
@@ -43,6 +43,10 @@
 
 		:global(h2) {
 			margin-bottom: 2rem;
+		}
+
+		:global(h3) {
+			margin-bottom: 0.5rem;
 		}
 	}
 </style>

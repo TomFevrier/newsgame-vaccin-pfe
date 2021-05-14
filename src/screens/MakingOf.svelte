@@ -21,7 +21,6 @@
 		<a href='https://github.com/TomFevrier/newsgame-vaccin-pfe' target='_blank'>
 			<Button>Voir le code source</Button>
 		</a>
-		<Spacer height='1rem' />
 		<Button on:click={() => visible = false}>
 			Retour au menu
 		</Button>

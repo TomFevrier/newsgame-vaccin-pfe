@@ -2,7 +2,7 @@ import Level from './Level.class.js';
 
 import { Sprite } from '../classes';
 
-import { isIntersecting, sleep } from '../utils';
+import { sleep } from '../utils';
 
 import data from '../data';
 

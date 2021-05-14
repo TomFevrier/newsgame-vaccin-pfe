@@ -30,7 +30,6 @@ export default class Game {
 
 		this.view = view;
 		this.overlay = this.view.querySelector('.overlay');
-		// this.view.appendChild(this.app.view);
 
 		this.width = this.app.renderer.width / this.app.renderer.resolution;
 		this.height = this.app.renderer.height / this.app.renderer.resolution;
@@ -94,9 +93,7 @@ export default class Game {
 	}
 
 	start() {
-		// localStorage.setItem('lab', 'CoviVax')
 		this.goToLevel(START_LEVEL ? START_LEVEL - 1 : 0);
-		// this.goToLevel(0);
 	}
 
 	goToLevel(index) {

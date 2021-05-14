@@ -18,7 +18,6 @@
 			return this.sort((a, b) => 0.5 - Math.random());
 		}
 	});
-
 </script>
 
 <main>

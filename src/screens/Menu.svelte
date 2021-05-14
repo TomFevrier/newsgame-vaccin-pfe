@@ -8,8 +8,6 @@
 
 	import texts from '../texts';
 
-	console.log(texts)
-
 	export let state;
 
 	let modalVisible = window.matchMedia('(min-aspect-ratio: 1)').matches;
@@ -48,10 +46,8 @@
 	<!-- <img class='background' id='rna' src='img/rna.svg' />
 	<img class='background' id='vial' src='img/vaccine-vial.svg' /> -->
 	<Levels bind:state bind:visible={levelsVisible} />
-	{#if NODELAY}
-		<MakingOf bind:visible={makingOfVisible} />
-		<Credits bind:visible={creditsVisible} />
-	{/if}
+	<MakingOf bind:visible={makingOfVisible} />
+	<Credits bind:visible={creditsVisible} />
 </div>
 
 
@@ -64,13 +60,10 @@
 		max-height: calc(100% * 16/9);
 		display: flex;
 		flex-direction: column;
-		// padding-top: 5rem;
 		justify-content: center;
 		z-index: 42;
 
 		background-color: $background-color;
-		// background-color: #FFFAFA;
-		// border: 0.5rem solid #00A9A0;
 
 		img {
 			display: block;
